@@ -36,7 +36,6 @@ ALLOWED_HOSTS = os.environ.get(
 # Application definition
 
 INSTALLED_APPS = [
-    'convert_video_to_audio_text',
     'django_bootstrap5',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -44,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'convert_video_to_audio_text',
 ]
 
 MIDDLEWARE = [
